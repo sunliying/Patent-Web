@@ -1,0 +1,71 @@
+body{
+	background-color: ghostwhite;
+}
+
+.chartList{
+    width: 1020px;
+    margin: 70px auto 50px;
+    text-align: center;
+}
+.chartList .class_summ{
+	fond-weight:bolder;
+	text-align:center;
+}
+.chartList .perlist{
+	height: 358px;
+    width: 1000px;
+    margin: 32px 0px;
+    position: relative;
+    padding: 20px;
+    box-shadow: #333 3px 4px 15px;
+    box-sizing: content-box;
+}
+.chartList .perlist .summary{
+    height: 356px;
+    width: 220px;
+    background-position:top left;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-color: #E9F1F2;
+    display: inline-block;
+    margin-right: 30px;
+    position: absolute;
+}
+.chartList .perlist .detail{
+    width: 600px;
+    height: 358px;
+    display: inline-block;
+        margin-left: 260px;
+}
+.chartList .byCity .summary{
+    background-image: url("../img/background1.png");
+}
+.chartList .byCountry .summary{
+    background-image: url("../img/background2.png");
+}
+.chartList .byName .summary{
+    background-image: url("../img/background3.png");
+}
+.chartList .byClass .summary{
+    background-image: url("../img/background1.png");
+}
+.chartList .byTimeRegion .summary{
+    background-image: url("../img/background4.png");
+}
+.chartList .perlist .detail .img{
+    height: 358px;
+    width: 635px;
+    margin: 0px 10px;
+}
+.chartList .perlist .summary .title{
+    text-align: center;
+}
+.chartList .perlist .summary .desc{
+    margin: 20px;
+}
+.chartList .perlist .summary .seeMore{
+    text-align: right;
+    display: block;
+    margin: 26px;
+    
+}

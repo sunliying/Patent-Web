@@ -1,0 +1,26 @@
+.content_box {
+    min-width: 1200px;
+    background-color: rgba(255,255,255,0.8);
+}
+
+.header h3 {
+    margin: 15px 200px;
+}
+
+.content_height {
+    width: 900px;
+    min-height: 511px;
+    margin: 52px auto 0px;
+    padding: 10px 50px;
+    background-color: rgba(222,219,233,0.4);
+}
+.title{
+	text-align: center;
+	color: blue;
+}
+.body p{
+	margin: 6px 10px;
+}
+.body p span{
+	font-weight: bold;
+}

@@ -1,0 +1,47 @@
+body{
+	background-color: ghostwhite;
+}
+.inputbox{
+	margin: 180px auto;
+    float: none;
+}
+.header{
+	width: 100%;
+	min-width: 1200px;
+    height: 40px;
+    background-color: #AAC;
+    box-shadow: 0px 1px 5px #AAC;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+.header h3{
+	text-align: center;
+    line-height: 40px;
+    margin: 0px 0px;
+    color: darkslateblue;
+    display: inline-block;
+    width: 58%;
+    min-width: 200px;
+}
+.header .name, .header .statistics{
+	font-size: 18px;
+	line-height: 40px;
+    display: inline-block;
+    min-width: 200px;
+}
+.header .name{
+    width: 20%;
+    text-align: right;
+}
+.header .statistics{
+	width:20%;
+	text-align: left;
+}
+.searchForm {
+	    width: 90%;
+    position: relative;
+    margin: auto;
+}

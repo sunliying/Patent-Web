@@ -1,0 +1,38 @@
+.content_box {
+    min-width: 1000px;
+    height: 90%;
+    margin: 50px auto 0;
+    overflow: hidden;
+    width: 80%;
+    min-height: 600px;
+}
+
+.content_box .body .chartBox {
+    padding: 20px 10px;
+}
+
+.content_box .body .chartBox ul.nav {
+    width: 25%;
+    float: left;
+    height: 90%;
+    overflow: hidden;
+    font-weight: bolder;
+    font-size: 18px;
+    box-shadow: #333 3px 4px 10px;
+    margin-right: 5%;
+}
+
+.content_box .body .chartBox .nav-tabs>li.active>a{
+	border: 0px;
+}
+.content_box .body .chartBox .tab-content {
+	width: 70%;
+    height: 90%;
+    overflow: hidden;
+    margin: 0px;
+    box-shadow: #333 3px 4px 10px;
+    padding: 20px;
+}
+.content_box .body .chartBox .tab-content .tab-pane{
+	margin: auto;
+}

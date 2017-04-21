@@ -1,0 +1,116 @@
+.content_box {
+    min-width: 1000px;
+    min-height: 500px;
+    height: 100%;
+    margin: 0px auto;
+    padding-top: 40px;
+    overflow: hidden;
+    width: 80%;
+    position: relative;
+}
+.content_box .body .chart_nav {
+    min-width: 200px;
+    width: 20%;
+    height: 96%;
+    float: left;
+    padding: 10px 15px;
+    box-shadow: #333 3px 4px 10px;
+    position: relative;
+    background-color: #fff;
+}
+.content_box .body .chart_nav .nav{
+	height: 100%;
+	width: 100%;
+}
+.content_box .body .chart_nav .chart_choice .nav-tabs>li>input{
+	border: 0px;
+	display: inline-block;
+}
+.content_box .body .chart_nav .chart_choice .nav-tabs>li>a{
+	border: 0px;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 30px;
+	height: 30px;
+	padding: 2px;
+	display: inline-block;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+	border: 0px;
+	    display: inline-block;
+}
+.content_box .body .chart_nav .nav>li>a{
+	    padding: 2px 5px;
+}
+.content_box .body .chart_produce{
+    width: 70%;
+    margin: 10px 0 10px 30%;
+    height: 98%;
+    overflow: hidden;
+    position: relative;
+}
+.content_box .body .chart_produce .tab-content{
+    box-sizing: border-box;
+    height: 100%;
+}
+.content_box .body .chart_produce .tab-content .tab-pane{
+	height: 100%;
+	position: relative;
+}
+.content_box .body .chart_produce .data_desc .desc{
+	background-color: #eee;
+    border: 1px solid #aaa;
+    padding: 6px 10px;
+    border-radius: 6px;
+}
+.content_box .body .chart_produce .data_desc ul li{
+	display: inline-block;
+	font-size: 18px;
+	line-height: 20px;
+	cursor: pointer;
+	text-decoration: none;
+	margin: 0px 10px;
+}
+.content_box .body .chart_produce .data_desc ul .config_h{
+	color: blue;
+}
+.content_box .body .chart_produce .data_desc{
+    height: 30%;
+    padding: 14px 0px;
+    min-height: 180px;
+    width: 97%;
+    margin-bottom: 3%;
+    box-shadow: #333 4px 3px 10px;
+    position: relative;
+    background-color: #fff;
+}
+.content_box .body .chart_produce .plan{
+	height: 85%;
+	width: 90%;
+	margin: auto;
+	overflow: auto;
+}
+.content_box .body .chart_produce .style_plan{
+	display: none;
+}
+.content_box .chart_produce .chart_exam{
+    height: 64%;
+    width: 97%;
+    min-height: 350px;
+    box-shadow: #333 3px 4px 10px;
+    overflow: hidden;
+    background-color: #fff;
+    padding: 10px 0;
+}
+
+.content_box .body .chart_produce .3Dchart{
+	padding: 0px 0px;
+}
+.content_box .body .chart_produce .chart_exam .chart{
+	margin: 0px 30px;
+
+}
+.formStatistic{
+	float:left;
+	padding-right:60px;
+}

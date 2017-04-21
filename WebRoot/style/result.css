@@ -1,0 +1,58 @@
+.header{
+	height: 50px;
+}
+.header .word_statistics{
+	font-size: 18px;
+	line-height: 50px;
+    display: inline-block;
+	width:200px;
+	position: absolute;
+	right: 80px;
+    color: black;
+}
+.search_box{
+	padding: 9px 120px;
+}
+.search_line{
+	    margin: 10px 0px;
+    border-top: 1px solid #999;
+}
+.body{
+	width: 1100px;
+	margin: 62px auto;
+	min-height: 450px;
+	background-color: rgba(255,255,255,0.4);
+}
+.body .search_summary p{
+	    margin: 10px 0 10px;
+    color: #666;
+    font-size: 14px;
+}
+.body .verline{
+	    color: darkgoldenrod;
+    margin: 0px 5px;
+
+}
+.body .search_result .one_result{
+	margin: 20px 0px;
+}
+.body .search_result .one_result h4{
+	color: #33c;
+	margin: 5px 0px;
+	display: inline-block;
+}
+.body .search_result .one_result p{
+	margin: 0px;
+	line-height: 18px;
+	font-size: 14px;
+	color: #666;
+}
+.body .paging nav{
+	    margin: 10px 0px 10px -450px;
+    text-align: center;
+}
+.abstract{
+	height: 36px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

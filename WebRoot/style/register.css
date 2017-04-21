@@ -1,0 +1,39 @@
+body{
+	background: url("../img/pic3.jpg") no-repeat;
+	background-size: 100% auto;
+	margin: 0px;
+	padding: 0px;
+}
+.contentbox{
+	width: 1000px;
+	margin: 0px auto;
+}
+.login-box{
+	width: 600px;
+	border-radius: 10px;
+	position: absolute;
+	left: 50%;
+	margin-left: -300px;
+	    margin-top: 83px;
+	padding: 20px;
+	background-color: rgba(230,240,230,0.6);
+}
+.login-box .input-group{
+	margin: 18px 5px;
+}
+.login-box .input-group input[type="radio"]{
+	margin: 5px 20px;
+	height: 20px;
+	width: auto;
+	vertical-align: middle;
+}
+.login-box .submit{
+	text-align: center;
+}
+.login-box .submit button{
+	margin: 10px 30px;
+}
+.login-box .pwdiff{
+	color: red;
+	margin-left: 100px;
+}
